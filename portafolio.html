@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Joaquin Rayff Vergaray Potenciano</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans selection:bg-blue-500 selection:text-white">
+ 
+    <nav class="p-5 bg-gray-800 flex flex-wrap justify-between items-center sticky top-0 z-50 shadow-md gap-4">
+        <span class="text-xl font-bold text-blue-400">Joaquin Rayff Vergaray Potencaiano</span>
+        <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm sm:text-base">
+            <a href="#sobre-mi" class="hover:text-blue-400 transition">Sobre mí</a>
+            <a href="#formacion" class="hover:text-blue-400 transition">Formación</a>
+            <a href="#proyectos" class="hover:text-blue-400 transition">Proyectos</a>
+            <a href="#evidencias" class="hover:text-blue-400 transition">Evidencias</a>
+            <a href="#mi-cv" class="hover:text-blue-400 transition">Ver CV</a>
+            <a href="#logros" class="hover:text-blue-400 transition">Logros</a>
+            <a href="#contacto" class="hover:text-blue-400 transition">Contacto</a>
+        </div>
+    </nav>
+
+    <header id="sobre-mi" class="min-h-[85vh] flex items-center px-6 max-w-5xl mx-auto py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
+            
+            <div class="space-y-6 text-center md:text-left">
+                <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">
+                    Hola, soy <span class="text-blue-400">Joaquin Rayff Vergaray Potencaiano</span>
+                </h1>
+                <p class="text-lg text-gray-400 leading-relaxed">
+                    Estudiante de Ingeniería de Ciberseguridad y Desarrollador. Me apasiona la seguridad informática, la administración de redes y la creación de soluciones eficientes con Python.
+                </p>
+                
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-2">
+                    <a href="CV_Joaquin_Vergaray.pdf" download="CV_Joaquin_Vergaray.pdf" class="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-5 rounded-lg transition shadow-lg text-sm">
+                        <span>📄</span> Descargar CV (PDF)
+                    </a>
+                    <a href="https://www.linkedin.com/in/joaquin-vergaray-potenciano/" target="_blank" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-5 rounded-lg transition shadow-lg text-sm">
+                        <span>💼</span> Conectar en LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex justify-center">
+                <div class="w-64 h-64 sm:w-80 sm:h-80 bg-gray-800 rounded-xl border border-gray-700 overflow-hidden shadow-2xl flex items-center justify-center relative group">
+                    <img src="mi-foto.jpg" alt="Joaquin Vergaray" class="w-full h-full object-cover hidden group-hover:block" onerror="this.style.display='none'">
+                    <div class="text-center p-6 space-y-2">
+                        <span class="text-4xl">👤</span>
+                        <h4 class="text-sm font-semibold text-gray-300">Imagen Profesional</h4>
+                        <p class="text-xs text-gray-500 max-w-[180px]">Vestimenta formal-casual o uniforme técnico limpio.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="skills" class="py-20 bg-gray-800 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">Mis Habilidades</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md border border-gray-600">
+                    <h3 class="text-xl font-semibold mb-4 text-emerald-400">Seguridad y Redes</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300 text-sm">
+                        <li>Configuración de Firewalls (Fortinet, etc.)</li>
+                        <li>Simulación de redes y protocolos VPN</li>
+                        <li>Administración de sistemas Linux</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md border border-gray-600">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-400">Desarrollo de Software</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300 text-sm">
+                        <li>Programación en Python</li>
+                        <li>Creación de interfaces y apps móviles</li>
+                        <li>Automatización de tareas y scripts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacion" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">Formación Académica</h2>
+            <div class="space-y-6">
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">SENATI</h3>
+                        <p class="text-gray-400">Carrera de Ingeniería de Ciberseguridad</p>
+                    </div>
+                    <span class="text-sm bg-blue-900 text-blue-300 px-3 py-1 rounded-full font-medium self-start">En curso</span>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-gray-800 p-4 rounded-lg border border-gray-700 text-sm">
+                        <span class="text-xs text-gray-500 block mb-1">Cisco Networking Academy</span>
+                        <h4 class="font-semibold text-gray-200">Ruta de Aprendizaje en Redes y Conectividad</h4>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg border border-gray-700 text-sm">
+                        <span class="text-xs text-gray-500 block mb-1">Fortinet Training Institute</span>
+                        <h4 class="font-semibold text-gray-200">Conceptos de Ciberseguridad y Firewalls</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="py-20 bg-gray-800 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-4 text-blue-400">Proyectos Destacados</h2>
+            <p class="text-center text-gray-400 mb-12 text-sm max-w-xl mx-auto">Casos prácticos e implementaciones estructuradas bajo el estándar de ingeniería y descripción de impacto.</p>
+            
+            <div class="space-y-12">
+                
+                <div class="bg-gray-700 rounded-xl overflow-hidden shadow-xl border border-gray-600 grid grid-cols-1 md:grid-cols-12">
+                    <div class="md:col-span-5 bg-gray-950 p-6 flex flex-col justify-center items-center border-b md:border-b-0 md:border-r border-gray-600 min-h-[220px] relative">
+                        <img src="calendario.png" alt="Demo Kivy Calendar" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="text-center space-y-2 hidden">
+                            <span class="text-3xl">📱</span>
+                            <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Galería Multimedia</h4>
+                            <p class="text-[11px] text-gray-500 max-w-[180px]">Capturas de interfaz de usuario y estructura de empaquetado Android SDK.</p>
+                        </div>
+                    </div>
+                    <div class="md:col-span-7 p-6 flex flex-col justify-between space-y-4">
+                        <div>
+                            <span class="text-xs font-mono text-purple-400 uppercase tracking-widest block mb-1">// Desarrollo Mobile</span>
+                            <h3 class="text-2xl font-bold text-white">Aplicación de Calendario Móvil Nativa</h3>
+                        </div>
+                        <div class="text-sm text-gray-300 space-y-2 font-light">
+                            <p><strong class="text-white font-medium">Situación/Tarea:</strong> Necesidad de un sistema offline optimizado para la gestión del tiempo personal en terminales Android de bajos recursos.</p>
+                            <p><strong class="text-white font-medium">Acción:</strong> Desarrollo modular en Python utilizando el framework Kivy, abstrayendo componentes lógicos y compilando mediante entornos virtuales Linux emparejados con Android SDK/NDK.</p>
+                            <p class="text-emerald-400 font-medium"><strong class="text-white font-medium">Impacto/Resultado:</strong> Reducción del uso de memoria RAM en un 35% en comparación con herramientas estándar basadas en frameworks híbridos.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 pt-2 items-center">
+                            <span class="bg-blue-900/60 text-blue-300 text-xs px-2 py-1 rounded border border-blue-800/40">Python</span>
+                            <span class="bg-purple-900/60 text-purple-300 text-xs px-2 py-1 rounded border border-purple-800/40">Kivy</span>
+                            <span class="bg-green-900/60 text-green-300 text-xs px-2 py-1 rounded border border-green-800/40">Android SDK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-700 rounded-xl overflow-hidden shadow-xl border border-gray-600 grid grid-cols-1 md:grid-cols-12">
+                    <div class="md:col-span-5 bg-gray-950 p-6 flex flex-col justify-center items-center border-b md:border-b-0 md:border-r border-gray-600 min-h-[220px] relative">
+                        <img src="topologia.png" alt="Topologia Cisco Fortigate" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="text-center space-y-2 hidden">
+                            <span class="text-3xl">💻</span>
+                            <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Galería Multimedia</h4>
+                            <p class="text-[11px] text-gray-500 max-w-[180px]">Capturas de pantalla de diagramas de red en Packet Tracer y paneles lógicos FortiOS.</p>
+                        </div>
+                    </div>
+                    <div class="md:col-span-7 p-6 flex flex-col justify-between space-y-4">
+                        <div>
+                            <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest block mb-1">// Infraestructura de Seguridad</span>
+                            <h3 class="text-2xl font-bold text-white">Laboratorio de Redes Seguras y Segmentación</h3>
+                        </div>
+                        <div class="text-sm text-gray-300 space-y-2 font-light">
+                            <p><strong class="text-white font-medium">Situación/Tarea:</strong> Simulación de una infraestructura corporativa vulnerable expuesta que requería un aislamiento estricto entre departamentos internos y DMZ.</p>
+                            <p><strong class="text-white font-medium">Acción:</strong> Segmentación lógica completa utilizando VDOMs (Virtual Domains) en Firewall Fortigate, implementación de políticas estrictas de control de tráfico y túneles seguros VPN junto con topologías Cisco.</p>
+                            <p class="text-emerald-400 font-medium"><strong class="text-white font-medium">Impacto/Resultado:</strong> Mitigación total del riesgo de movimiento lateral interno mediante políticas Zero Trust estructuradas en el perímetro virtual.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 pt-2 items-center">
+                            <span class="bg-red-900/60 text-red-300 text-xs px-2 py-1 rounded border border-red-800/40">Cisco</span>
+                            <span class="bg-yellow-900/60 text-yellow-300 text-xs px-2 py-1 rounded border border-yellow-800/40">Fortigate</span>
+                            <span class="bg-gray-900/60 text-gray-300 text-xs px-2 py-1 rounded border border-gray-800/40">VDOM</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="evidencias" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-4 text-blue-400">Repositorio de Evidencias</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-xl mx-auto text-sm">Registro técnico de topologías, maquetas simuladas y entornos de infraestructura completados en talleres.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="p-5 bg-gray-800 rounded-lg border border-gray-700 flex items-center justify-between">
+                    <div>
+                        <h3 class="font-semibold text-gray-200">Topología Packet Tracer (.pkt)</h3>
+                        <p class="text-xs text-gray-500">Esquema corporativo WAN/LAN estructurado</p>
+                    </div>
+                    <span class="text-xs text-amber-400 bg-amber-950/50 px-2 py-1 rounded border border-amber-800/60 font-mono">Entorno Instituto</span>
+                </div>
+                <div class="p-5 bg-gray-800 rounded-lg border border-gray-700 flex items-center justify-between">
+                    <div>
+                        <h3 class="font-semibold text-gray-200">Políticas FortiOS (Scripts)</h3>
+                        <p class="text-xs text-gray-500">Reglas básicas de Firewall perimetral y VDOM</p>
+                    </div>
+                    <span class="text-xs text-amber-400 bg-amber-950/50 px-2 py-1 rounded border border-amber-800/60 font-mono">Entorno Instituto</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mi-cv" class="py-20 bg-gray-900 px-6 border-t border-gray-800">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-4 text-blue-400">Currículum Vitae</h2>
+            <p class="text-center text-gray-400 mb-8 text-sm">Puedes visualizar mi trayectoria directamente aquí o descargar el documento en la sección superior.</p>
+            
+            <div class="w-full h-[650px] bg-gray-800 rounded-xl border border-gray-700 overflow-hidden shadow-2xl">
+                <embed src="cv_joaquin_vergaray.pdf" type="application/pdf" class="w-full h-full" />
+            </div>
+        </div>
+    </section>
+
+    <section id="logros" class="py-20 bg-gray-800 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-400">Logros y Desempeño</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+                <div class="p-6 bg-gray-700 rounded-lg border border-gray-600">
+                    <div class="text-3xl font-extrabold text-blue-400 mb-2">100%</div>
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Segmentación Lógica</p>
+                    <p class="text-sm text-gray-300 mt-2 font-light">Despliegue correcto de políticas VDOM y aislamiento.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg border border-gray-600">
+                    <div class="text-3xl font-extrabold text-purple-400 mb-2">Multi-Plat</div>
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Ecosistema Python</p>
+                    <p class="text-sm text-gray-300 mt-2 font-light">Compilación y empaquetado funcional de binarios APK.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg border border-gray-600">
+                    <div class="text-3xl font-extrabold text-emerald-400 mb-2">+20</div>
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Casos Resueltos</p>
+                    <p class="text-sm text-gray-300 mt-2 font-light">Diagnósticos exitosos en problemas de redes y conectividad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-20 text-center px-6">
+        <h2 class="text-3xl font-bold mb-4 text-blue-400">¿Hablamos?</h2>
+        <p class="text-gray-400 max-w-md mx-auto mb-8">Estoy buscando oportunidades de prácticas o proyectos donde pueda aportar mis conocimientos técnicos.</p>
+        <div class="flex justify-center space-x-6 text-lg">
+            <a href="https://www.linkedin.com/in/joaquin-vergaray-potenciano/" target="_blank" class="text-gray-300 hover:text-blue-400 transition">💼 LinkedIn</a>
+            <a href="https://github.com/joaquinrayff44-droid" target="_blank" class="text-gray-300 hover:text-gray-400 transition">💻 GitHub</a>
+        </div>
+    </section>
+
+    <footer class="py-6 text-center text-gray-600 text-sm border-t border-gray-800">
+        &copy; 2026 - Diseñado y programado por Joaquin Rayff Vergaray Potenciano.
+    </footer>
+
+</body>
+</html>
